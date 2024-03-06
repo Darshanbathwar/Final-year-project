@@ -1,0 +1,122 @@
+.header{
+    background-color: rgb(49, 49, 49);
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 15px;
+}
+
+.events{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.events h2{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.counter{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 5px;
+}
+
+.counter p{
+    background-color: #1DF59F;
+    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.add-button button{
+    background-color: #1DF59F;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: fixed;
+    top: 20px; /* Desired position */
+    right: 210px; /* Adjust as needed */
+    z-index: 100;
+}
+
+.add-button button p{
+    padding: 0;
+    text-decoration: none;
+}
+
+.add-button a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.user-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.user-img{
+    border-radius: 60%;
+    width: 30%;
+}
+
+.user-dropdown{
+    background-color: #1DF59F;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.logout-btn{
+    background-color: transparent;
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
