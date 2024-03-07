@@ -5,6 +5,9 @@ import Dashboard from './Pages/Dashboard';
 import CreateEvent from './Pages/CreateEvent';
 import EditProduct from './Pages/EditPage';
 import Header from './Components/Header';
+import "./App.css"
+import { useAuthState } from 'react-firebase-hooks/auth';
+
 import Login from './Pages/Login';
 
 function App() {
@@ -32,6 +35,7 @@ function App() {
     setSelectedCard(null);
   };
   return (
+
     
     <Router>
       <Routes>

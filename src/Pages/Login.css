@@ -3,6 +3,7 @@
     --secondary: #fafafa;
     --font-color: #3e3c3c
   }
+
   
   .place-center {
     display: flex;
@@ -14,6 +15,7 @@
     background-image: url('../assets/images/bg1.jpg');
     background-size: 100%;
     height: 100vh;
+    font-family: roboto;
   }
   
   .signin-wrapper {
